@@ -14,14 +14,13 @@
 		AA32684B22666F91004A81BC /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32684A22666F90004A81BC /* MenuViewModel.swift */; };
 		AA32684D22668416004A81BC /* RaceCircuitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32684C22668416004A81BC /* RaceCircuitViewModel.swift */; };
 		AA32684F22668A6F004A81BC /* RaceCircuitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32684E22668A6F004A81BC /* RaceCircuitViewController.swift */; };
-		AA326851226696CB004A81BC /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA326850226696CB004A81BC /* TextTableViewCell.swift */; };
 		AA9F71B52264D8E500454893 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F71B42264D8E500454893 /* AppDelegate.swift */; };
 		AA9F71BA2264D8E500454893 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9F71B82264D8E500454893 /* Main.storyboard */; };
 		AA9F71BC2264D8E700454893 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9F71BB2264D8E700454893 /* Assets.xcassets */; };
 		AA9F71BF2264D8E700454893 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9F71BD2264D8E700454893 /* LaunchScreen.storyboard */; };
 		AA9F71C82264EA0900454893 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F71C72264EA0900454893 /* MenuViewController.swift */; };
 		AA9F71CC22651B4200454893 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F71CB22651B4200454893 /* ContainerViewController.swift */; };
-		AAE45CBB22675ABC008EECCF /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE45CBA22675ABC008EECCF /* ImageTableViewCell.swift */; };
+		AAE45CBB22675ABC008EECCF /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE45CBA22675ABC008EECCF /* EventTableViewCell.swift */; };
 		AAE45CC8226763B2008EECCF /* MosportPark1961.png in Resources */ = {isa = PBXBuildFile; fileRef = AAE45CBD226763B2008EECCF /* MosportPark1961.png */; };
 		AAE45CC9226763B2008EECCF /* LeMans2015.png in Resources */ = {isa = PBXBuildFile; fileRef = AAE45CBE226763B2008EECCF /* LeMans2015.png */; };
 		AAE45CCA226763B2008EECCF /* DaytonaRoadCourse2010.png in Resources */ = {isa = PBXBuildFile; fileRef = AAE45CBF226763B2008EECCF /* DaytonaRoadCourse2010.png */; };
@@ -43,7 +42,6 @@
 		AA32684A22666F90004A81BC /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
 		AA32684C22668416004A81BC /* RaceCircuitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceCircuitViewModel.swift; sourceTree = "<group>"; };
 		AA32684E22668A6F004A81BC /* RaceCircuitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceCircuitViewController.swift; sourceTree = "<group>"; };
-		AA326850226696CB004A81BC /* TextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
 		AA9F71B12264D8E500454893 /* MenuChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9F71B42264D8E500454893 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA9F71B92264D8E500454893 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,7 +50,7 @@
 		AA9F71C02264D8E700454893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA9F71C72264EA0900454893 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		AA9F71CB22651B4200454893 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
-		AAE45CBA22675ABC008EECCF /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		AAE45CBA22675ABC008EECCF /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
 		AAE45CBD226763B2008EECCF /* MosportPark1961.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MosportPark1961.png; sourceTree = "<group>"; };
 		AAE45CBE226763B2008EECCF /* LeMans2015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LeMans2015.png; sourceTree = "<group>"; };
 		AAE45CBF226763B2008EECCF /* DaytonaRoadCourse2010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DaytonaRoadCourse2010.png; sourceTree = "<group>"; };
@@ -85,8 +83,7 @@
 				AA32684C22668416004A81BC /* RaceCircuitViewModel.swift */,
 				AA3268402266535D004A81BC /* RaceCircuitModel.swift */,
 				AA32684422665917004A81BC /* ImsaData.json */,
-				AA326850226696CB004A81BC /* TextTableViewCell.swift */,
-				AAE45CBA22675ABC008EECCF /* ImageTableViewCell.swift */,
+				AAE45CBA22675ABC008EECCF /* EventTableViewCell.swift */,
 			);
 			path = RaceCircuitDetail;
 			sourceTree = "<group>";
@@ -245,9 +242,8 @@
 				AA9F71C82264EA0900454893 /* MenuViewController.swift in Sources */,
 				AA9F71CC22651B4200454893 /* ContainerViewController.swift in Sources */,
 				AA32684922666F37004A81BC /* MenuItemModel.swift in Sources */,
-				AAE45CBB22675ABC008EECCF /* ImageTableViewCell.swift in Sources */,
+				AAE45CBB22675ABC008EECCF /* EventTableViewCell.swift in Sources */,
 				AA32684F22668A6F004A81BC /* RaceCircuitViewController.swift in Sources */,
-				AA326851226696CB004A81BC /* TextTableViewCell.swift in Sources */,
 				AA9F71B52264D8E500454893 /* AppDelegate.swift in Sources */,
 				AA3268412266535D004A81BC /* RaceCircuitModel.swift in Sources */,
 				AA326843226658A8004A81BC /* DataAccess.swift in Sources */,
